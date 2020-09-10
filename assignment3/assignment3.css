@@ -1,0 +1,51 @@
+h1 {
+ color: #c31d00;
+ background-color: #;
+}
+
+h2 {
+  color: #c31d00
+}
+
+p {
+  color: #393941;
+}
+
+a {
+ color: #ff0000;
+}
+
+a:link {
+  color: #c31d00;
+}
+
+a:visited {
+  color: #008024;
+  text-decoration:none;
+}
+
+a:active {
+  color: #0201e4;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ece243;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+#gray {
+  color: #9595aa;
+}
+
+#red {
+ color: #c31d00;
+}
+
+.highlight {
+  background-color: #ece243;
+}
