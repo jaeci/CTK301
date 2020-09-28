@@ -1,0 +1,70 @@
+#wrapper {
+  margin: 1em auto;
+  padding: 1em;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 100px auto 75px;
+}
+
+.p1, .p2 {
+  border: 1px solid #ff0000;
+}
+
+.floatimage {
+  margin: 20px;
+  float: right;
+}
+
+header {
+  grid-column: span 12;
+  border: 1px solid #ff0000;
+}
+
+nav {
+  grid-column: span 3;
+  border: 1px solid #ff0000;
+}
+
+main {
+  grid-column: span 9;
+  border: 1px solid #ff0000;
+}
+
+footer {
+  grid-column: span 12;
+  border: 1px solid #ff0000;
+}
+
+/* unordered list with no bullets
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* horizontal with float
+nav li {
+  float: left;
+  padding: 10px;
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+/* horizontal with inline
+nav li {
+  display: inline;
+  padding: 10px;
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+/* horizontal with inline-block
+nav li {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #000000;
+  margin: 10px;
+/*
