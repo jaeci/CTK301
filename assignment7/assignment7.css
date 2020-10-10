@@ -1,0 +1,138 @@
+#wrapper{
+  width: 960px;
+  background-color: #ffffff;
+  border: 3px solid #1f71cf;
+  margin: 1em auto;
+}
+
+/*types of text*/
+
+h1{
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  color: #87c3f5;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2{
+  font-family: Helvetica, Arial, sans-serif;
+  border-bottom: 3px solid #1f71cf;
+  padding-left: 20px;
+  color: #1f71cf;
+}
+
+body{
+  background-color: #827f85;
+}
+
+p{
+  font-family: Georgia, serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*sections*/
+
+header{
+  grid-column: span 12;
+  margin: 0px;
+  padding: 30px;
+  color: #87c3f5;
+  border: 3px #1f71cf;
+  background-image: linear-gradient(to bottom, #1fa9ff, #1a9bf4, #198de8, #1b7fdc, #1f71cf);
+  }
+
+}
+
+nav{
+  font-family: Helvetica, Arial, sans-serif;
+  grid-column: span 12;
+  color: #87c3f5;
+  background
+  margin: 0px;
+  padding: 0px;
+}
+
+main{
+  grid-column: span 12;
+}
+
+footer{
+    grid-column: span 12;
+    border-top: 3px solid #1f71cf;
+    background-color: #c40e20;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*nav*/
+
+nav ul {
+  font-family: Helvetica, Arial, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  background-image: linear-gradient(to bottom, #1fa9ff, #1a9bf4, #198de8, #1b7fdc, #1f71cf);
+}
+
+nav li {
+  padding: 0px;
+  margin: 0px;
+  width: 240px;
+  display: inline-block;
+  border-right: 3px solid #1f71cf;
+}
+
+nav li a:hover {
+  background-color: #ffffff;
+}
+
+nav li a {
+  color: #ffffff;
+  padding: 10px;
+
+  display: block;
+  margin: 0px;
+  text-decoration: none;
+}
+
+
+a:hover {
+ color: #c40e20;
+ text-decoration: underline;
+}
+
+/*classes*/
+
+.imgbox1{
+  border: 3px solid #1f71cf;
+  margin: 10px;
+  float: left;
+}
+
+.bold{
+  font-weight: bold;
+  text-align: justify;
+}
+
+.red {
+  color: #c40e20;
+  font-weight: bold;
+}
+
+.imgbox2{
+  border: 3px solid #1f71cf;
+  margin: 10px;
+  float: right;
+}
+
+.imgbox3{
+  border: 3px solid #1f71cf;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
