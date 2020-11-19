@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <title>TEST</title>
+  <link href="test.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <!-- Slider main container -->
+  <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="swiper/inkblot.jpg" alt="Inkblot"/></div>
+          <div class="swiper-slide"><img src="swiper/daisy.jpg" alt="Daiey"/></div>
+          <div class="swiper-slide"><img src="swiper/eye.jpg" alt="Eye"/></div>
+
+
+ <!-- Swiper JS -->
+ <script src="../package/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper('.swiper-container', {
+     spaceBetween: 30,
+     centeredSlides: true,
+     autoplay: {
+       delay: 5000,
+       disableOnInteraction: false,
+     },
+     pagination: {
+       el: '.swiper-pagination',
+       clickable: true,
+     },
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+   });
+ </script>
+
+</body>
+</html>
