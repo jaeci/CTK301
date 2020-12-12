@@ -1,0 +1,151 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+
+header{
+  grid-column: span 12;
+  background-color: #535165;
+  font-weight: normal;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+nav{
+  grid-column: span 12;
+  background-color: #535165;
+  text-align: center;
+  font-family: 'Xanh Mono', monospace;
+  color: #ADD9A7;
+  font-size: 35px;
+  display: block;
+}
+
+main{
+  grid-column: span 12;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer{
+  grid-column: span 12;
+  background-color: #535165;
+  text-align: center;
+  font-family: 'Xanh Mono', monospace;
+  color: #ADD9A7;
+  font-size: 20px;
+  margin:0px;
+  padding: 20px;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Xanh Mono', monospace;
+  text-align: left;
+  color: #535165;
+}
+
+/*header*/
+
+h1{
+  font-family: 'Xanh Mono', monospace;
+  color: #ADD9A7;
+  font-size: 70px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 5px;
+  font-style: italic;
+}
+
+h2{
+  font-family: 'Xanh Mono', monospace;
+  color: #535165;
+  font-size: 35px;
+
+}
+
+/*nav*/
+
+ul{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+li{
+  grid-column: span 3;
+  width: 240px;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: #ADD9A7;
+}
+
+nav li a{
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li a:hover {
+  background-color: #ffffff;
+  color: #535165;
+}
+
+/*image*/
+
+.placeholder {
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.aboutimg {
+  float: right;
+}
+
+.centertext {
+  text-align: center;
+}
+/* CSS 3 that turned out pretty cool and I'll probably keep */
+nav a {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  color: white;
+  transition: background-color .5s, width 2.0s, color 2.0s;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 48px;
+  padding-bottom: 10px;
+}
+
+
+
+/*
+#ADD9A7 - green color
+#535165 - purple color
